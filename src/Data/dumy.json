@@ -1,0 +1,29 @@
+
+    { "type": "Feature", "properties": { "NAME": "TORSHAVN" }, 
+    "geometry": { "type": "Polygon", "coordinates": 
+        [ [ [ -6.758638858795166, 62.015167236328125 ],
+         [ -6.761841773986816, 62.015277862548828 ], 
+         [ -6.770943164825439, 62.00592041015625 ], 
+         [ -6.782127857208252, 62.010581970214844 ], 
+         [ -6.78955078125, 62.010566711425781 ], 
+         [ -6.780142307281494, 62.016838073730469 ],
+          [ -6.780078887939453, 62.024887084960938 ], 
+          [ -6.780065536499023, 62.026569366455078 ], 
+          [ -6.768764495849609, 62.022209167480469 ], 
+          [ -6.758407592773438, 62.023361206054688 ], 
+          [ -6.755340099334717, 62.018013000488281 ], 
+          [ -6.758638858795166, 62.015167236328125 ] ] ] } 
+        }
+
+
+        () => (
+       
+        // view.getView().fit(this.state.selectedFeature.geometry.coordinates,{padding: [170, 50, 30, 150]})
+        //console.log(this.state.selectedFeature.geometry.coordinates)
+        console.log(Source.getExtent())
+       // map.getView().fit(feature.getGeometry(), map.getSize())
+       )
+
+
+       this is api key 
+       abb8ec2560cd5fddc8e0b950d4e6f458
