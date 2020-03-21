@@ -12,7 +12,7 @@ import Fill from 'ol/style/Fill'
 import {Tile as TileLayer} from 'ol/layer';
 import VectorSource from 'ol/source/Vector'
 import VectorLayer from 'ol/layer/Vector'
-import Modal from 'react-modal';
+  import Modal from 'react-modal';
 import Grid from '@material-ui/core/Grid';
 import 'openlayers/css/ol.css'
 import './weather.scss'
